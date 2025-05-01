@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="tit">A/A</title>
+</head>
+<body>
+    <style>
+        #g{
+            text-align: left ;
+        }
+        #de{
+            background: #454b45;
+            width:600px;
+            height:800px;
+        }
+    
+        body {
+            background: #ff000a;
+        }
+        h1{
+          text-align: center;
+          color: #ffbe95;
+          
+        }
+        #p{
+          text-align: center;
+          color: #ffffff;
+        }
+    </style>
+    <h1 onclick="h()" ><i id="d">A/A</i></h1><p id="p">v 0.1</p>
+    <p>To publish a drawing or animation, send it to an email <a href="mailto: superanimfx@gmail.com">fx (File Manager)</a> or on Newground "draw 200×200- px".</p><br>
+     <a href="mailto: nettoyagefx@gmail.com">you like Art/Animation</a>
+     <h1>join/post</h1>
+     <form action="https://formsubmit.co/superanimfx@gmail.com" method="post"><labet>nikname</labet>
+       <input type="name" name="n"><br>
+     <labet>post</labet> 
+ <input type="text" name="send msg">
+  </select>
+       
+       <button tpye="submit" id="a">send</button><br>
+        <h1>log/join</h1> <form action="https://formsubmit.co/superanimfx@gmail.com" method="post"><labet>nikname</labet>
+       <input type="name" name="n"><br>
+     <labet>email</labet>
+     <input type="email" name="email">
+       <button tpye="submit" id="a">send</button>
+       
+   </form>
+   </form>
+    <div id="de"><h1>from artists</h1><br><img src="" alt="nothing"><img src="" alt="nothing"><img src="" alt="nothing"><img src="" alt="nothing"><br><img src="" alt="nothing"><img src="" alt="nothing"><img src="" alt="nothing"><img src="" alt="nothing"><br><img src="" alt="nothing"><img src="" alt="nothing"><img src="" alt="nothing"><img src="" alt="nothing"><br><h1>animtion</h1><iframe src="" width="200" height="200"></iframe><iframe src="" width="200" height="200"></iframe><iframe src="" width="200" height="200"></iframe><iframe src="" width="200" height="200"></iframe><iframe src="" width="200" height="150"></iframe><iframe src="" width="200" height="150"></iframe></div>
+    <h2>Best artists on the site (according to the number of like requests)</h2>
+    <marquee><p></p><p></p><p></p><p></p><p></p></marquee>
+    <canvas id="qrCodeCanvas" class="qr-code"></canvas><br>
+    <h1 id="g">host you </h1>
+ <input type="html" id="ht">
+ <button onclick="hy()">qr site</button>
+ <p>Take screenshots of your KR and post them on Newground, Twitter or any platform.</p>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <canvas id="qrCodeCanvas" class="qr-code"></canvas><br><h1 id="g">open qr site</h1>
+  <br><p>Enter the QR code you translated.</p>
+<input type="code" id="koko">
+<button onclick="youssef()">open site</button>
+  <script>
+      function hy(){
+      const qrCodeCanvas = document.getElementById("qrCodeCanvas");
+let qr = document.getElementById("ht").value;
+        generateQRCode(qr);
+   
+    function generateQRCode(code) {
+      QRCode.toCanvas(qrCodeCanvas, code, { width: 200 }, (error) => {
+        if (error) console.error(error);
+      });
+    }
+    }
+    function youssef() {
+        let xg = document.getElementById("koko").value;
+        document.write(xg);
+    }</script>
+    <script>
+     function h() {
+         setTimeout(function () {
+             document.getElementById('tit').textContent = "★A/A★";
+         },1000);
+         setTimeout(function () {
+             document.getElementById('tit').textContent = "☆A/A☆";
+         },2000);
+         setTimeout(function () {
+             document.getElementById('tit').textContent = "※A/A※";
+         },3000);
+         setTimeout(function () {
+             document.getElementById('tit').textContent = "A/A";
+         },5000);
+     }
+     setTimeout(function () {
+             document.getElementById('d').textContent = "𖨆……………";
+         },1000);
+         setTimeout(function () {
+             document.getElementById('d').textContent = "…A𖨆…………";
+         },2000);
+         setTimeout(function () {
+             document.getElementById('d').textContent = " …A/𖨆……";
+         },3000);
+         setTimeout(function () {
+             document.getElementById('d').textContent = "…A/A…𖨆……";
+         },4000);
+            setTimeout(function () {
+             document.getElementById('d').textContent = "…A/A𖨆…";
+         },5000);
+            setTimeout(function () {
+             document.getElementById('d').textContent = " A/A";
+         },6000);
+    </script>
+</body>
+</html>
